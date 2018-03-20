@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.vivek.captcha.core.service.impl.CaptchaServiceImpl">
+    <OCD id="com.vivek.captcha.core.service.impl.CaptchaServiceImpl" name="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.name" description="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.description">
+        <AD id="captcha.validation.api.host" type="String" default="https://www.google.com" name="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.api.host.name" description="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.api.host.description"/>
+        <AD id="captcha.validation.secret.key" type="String" default="&lt;Secret\ Key&gt;" name="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.secret.key.name" description="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.secret.key.description"/>
+        <AD id="captcha.validation.api.path" type="String" default="/recaptcha/api/siteverify" name="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.api.path.name" description="%com.vivek.captcha.core.service.impl.CaptchaServiceImpl.captcha.validation.api.path.description"/>
+    </OCD>
+    <Designate pid="com.vivek.captcha.core.service.impl.CaptchaServiceImpl">
+        <Object ocdref="com.vivek.captcha.core.service.impl.CaptchaServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

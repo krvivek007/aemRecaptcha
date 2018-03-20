@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>VivekCaptchaApp - UI apps</comment>
+<entry key="createdBy">vivek.k</entry>
+<entry key="name">Captcha.ui.apps</entry>
+<entry key="created">2018-03-20T08:28:58.680+0530</entry>
+<entry key="groupId">VivekCaptchaApp</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">VivekCaptchaApp</entry>
+<entry key="description">UI apps package for VivekCaptchaApp</entry>
+<entry key="artifactId">Captcha.ui.apps</entry>
+<entry key="path">/etc/packages/VivekCaptchaApp/Captcha.ui.apps.zip</entry>
+</properties>

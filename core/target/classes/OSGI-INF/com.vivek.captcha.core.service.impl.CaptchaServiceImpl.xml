@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.vivek.captcha.core.service.impl.CaptchaServiceImpl" activate="activate">
+        <implementation class="com.vivek.captcha.core.service.impl.CaptchaServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.vivek.captcha.core.service.CaptchaService"/>
+        </service>
+        <property name="service.vendor" value="Captcha Service"/>
+        <property name="service.description" value="Captcha Service"/>
+        <property name="captcha.validation.api.host" value="https://www.google.com"/>
+        <property name="captcha.validation.secret.key" value="&lt;Secret Key&gt;"/>
+        <property name="captcha.validation.api.path" value="/recaptcha/api/siteverify"/>
+        <property name="service.pid" value="com.vivek.captcha.core.service.impl.CaptchaServiceImpl"/>
+    </scr:component>
+</components>
